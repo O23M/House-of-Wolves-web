@@ -1,0 +1,70 @@
+
+
+body{
+        background-color:lightseagreen;
+
+    }
+    .outer{
+        background-color: aqua;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 15px 30px;
+    }
+
+    .inner{
+        background-color: blueviolet;
+        padding: 15px 29px;        
+        text-decoration: underline wavy #8f6;    
+        text-underline-offset: 4px;   
+        outline: 4px dashed red;
+        text-decoration-skip-ink: none;
+        color: white;      
+
+    }  
+    
+     .bold-line{
+                font-weight:bold;  /*makes text bold*/
+                text-decoration: line-through; /*makes a line throught the text*/
+                display: inline;
+            }
+
+     .p {
+        color: pink;
+        font-size: 21px;
+
+     }
+
+     table, td, th{
+        border: 2px dotted greenyellow;
+        border-collapse:collapse;
+        padding: 10px;
+
+        
+     }
+
+     .colorp {
+            color: black;
+            font_size: 15px;
+     }
+
+     /* Row colors in the table */
+
+     .Red-row{ color:red;}
+     .Green-row{ color:green;}
+     .Yellow-row{ color: yellow;}
+     .Blue-row{ color:blue;}
+
+     .emphasized{
+        text-decoration-line: line-through;        
+        text-decoration-style: wavy;
+        font-style: italic;;
+        color: crimson;
+        font-weight: bold;
+        font-size: 13px;
+     }
+
+
+        
+     
+
+
