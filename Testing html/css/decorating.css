@@ -1,0 +1,131 @@
+
+
+h1{
+         color: brown;
+         font-style: italic;
+      }
+
+      h2 {
+         color: green;
+         font-weight: bold;
+      }
+
+      h6{
+         color: blue;      
+      }
+
+        
+
+body{
+        background-color:lightseagreen;
+    }
+    
+    .outer{
+        background-color: aqua;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 15px 30px;
+    }
+
+    .inner{
+        background-color: blueviolet;
+        padding: 15px 29px;        
+        text-decoration: underline wavy #8f6;    
+        text-underline-offset: 4px;   
+        outline: 4px dashed red;
+        text-decoration-skip-ink: none;
+        color: white;      
+
+    }  
+    
+     .bold-line{
+                font-weight:bold;  /*makes text bold*/
+                text-decoration: line-through; /*makes a line throught the text*/
+                display: inline;
+            }
+
+     .p {
+        color: pink;
+        font-size: 21px;
+
+     }
+
+     table, td, th{
+        border: 2px dotted greenyellow;
+        border-collapse:collapse;
+        padding: 10px;
+
+        
+     }
+
+     .colorp {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+     }
+
+     /* Row colors in the table */
+
+     .Red-row{ color:red;}
+     .Green-row{ color:green;}
+     .Yellow-row{ color: yellow;}
+     .Blue-row{ color:blue;}
+
+     .emphasized{
+        text-decoration-line: line-through;        
+        text-decoration-style: wavy;
+        font-style: italic;
+        color: crimson;
+        font-weight: bold;
+        font-size: 13px;
+     }
+
+     .color{
+        color:green;
+     }
+
+     .box{
+      flex: 1;
+      margin: 50px;
+      padding: 50px;
+      border: 15px solid purple; /* this is for the border width and color */
+      width: 100px;
+      height: 150px;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: lighter;
+      font-style: oblique;   
+      color: purple;  
+      font-size: 14px;
+
+     }
+
+     .container{
+      display: flex;
+      border: 2px dashed black;
+      background-color: lightpink;      
+     }
+
+     .verticle-line-left {
+      height: 250px;
+      border-left: 5px solid blue;
+     }
+
+     
+      .vertical-line-right {
+         height: 250px;
+         border-right: 5px solid blue;
+      }
+
+      .subtext{                  
+         margin-top: 10px;       /* space between the two lines */
+         font-size: 15px;        /* smaller text */
+         color: black;     /* optional styling */
+         font-style: normal;     /* override the oblique if needed */
+         font-weight: bold;
+      }
+
+      
+     
+
+
